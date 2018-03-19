@@ -15,6 +15,7 @@ import About from './JS/sidebarpages/About';
 import Profile from './JS/sidebarpages/Profile';
 import Download from './JS/sidebarpages/Download';
 import Reviews from './JS/sidebarpages/Reviews';
+import Signup from './JS/Signup';
 
 const Drawer = DrawerNavigator(
   {
@@ -40,6 +41,7 @@ const Drawer = DrawerNavigator(
 
 const Router = StackNavigator({
   login: { screen: Login },
+  signup: { screen: Signup },
   drawer: { screen: Drawer },
   categoryelements: { screen: CategoryItems },
   place: { screen: Place },

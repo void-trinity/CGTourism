@@ -77,6 +77,13 @@ class Login extends Component {
         >
           <View style={bg}>
             <Image source={require('../BG/cgtlogo.png')} style={logo} />
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('signup')}
+            >
+              <Text
+                style={{ marginBottom: 10, color: '#3C3C3C', fontSize: 18 }}
+              >Signup</Text>
+            </TouchableOpacity>
           </View>
           <Form
             style={{ width: window.width - 70, marginBottom: 20 }}
