@@ -40,7 +40,7 @@ class Reviews extends Component {
     const { params } = this.props.navigation.state;
     const { name } = params;
     if (this.state.review.length > 0) {
-      axios.post( baseUrl + '/places/api/review/add/', {
+      axios.post(`${baseUrl}/places/api/review/add/`, {
         username: this.state.username,
         review: this.state.review,
         placename: name
@@ -49,10 +49,11 @@ class Reviews extends Component {
         'Review Added Successfully',
         'Will be taken to home page to affect changes',
         [
-          { text: 'OK', onPress: () =>
-              navigatorRef.dispatch(NavigationActions.reset({
-              index: 0,
-              actions: [NavigationActions.navigate({ routeName: 'drawer' })],
+          { text: 'OK',
+              onPress: () =>
+                navigatorRef.dispatch(NavigationActions.reset({
+                index: 0,
+                actions: [NavigationActions.navigate({ routeName: 'drawer' })]
             })) }
         ],
         { cancelable: false }

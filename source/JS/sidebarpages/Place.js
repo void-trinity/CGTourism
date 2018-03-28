@@ -61,6 +61,7 @@ class Place extends Component {
               <Left>
                 <Slideshow
                   dataSource={imagelist}
+                  style={{ resizeMode: 'center' }}
                 />
               </Left>
             </CardItem>

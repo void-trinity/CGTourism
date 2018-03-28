@@ -137,7 +137,7 @@ class Home extends Component {
               </CardItem>
               <CardItem body>
                 <Text style={{ fontSize: 14, color: '#8a8f96' }}>
-                The state government of Chhattisgarh has launched a new tourism scheme on 15th October for the various spots. Named as “Raman Jan Paryatan Yojana”, the scheme will be managed by Chhattisgarh Tourism Board (CTB). Under the scheme, people can now visit various tourist spots in Chhattisgarh conveniently. Under the Raman Jan Paryatan Yojana, the CBT will arrange tours for people to Naya Raipur besides Sirpur, Giraudpuri, Barnavapara, Chitrakote, Teerathgarh, and other tourist places including Tala, Malhar, Shivrinarayan and Ratanpur on prescribed dates. Click for more info
+                  The state government of Chhattisgarh has launched a new tourism scheme on 15th October for the various spots. Named as “Raman Jan Paryatan Yojana”, the scheme will be managed by Chhattisgarh Tourism Board (CTB). Under the scheme, people can now visit various tourist spots in Chhattisgarh conveniently. Under the Raman Jan Paryatan Yojana, the CBT will arrange tours for people to Naya Raipur besides Sirpur, Giraudpuri, Barnavapara, Chitrakote, Teerathgarh, and other tourist places including Tala, Malhar, Shivrinarayan and Ratanpur on prescribed dates. Click for more info
                 </Text>
               </CardItem>
             </Card>
@@ -146,7 +146,10 @@ class Home extends Component {
             style={{ marginBottom: 30, marginTop: 20 }}
           >
             <CardItem header>
-              <Title style={{ fontSize: 18, color: '#8a8f96', fontWeight: '100' }}>Achievements</Title>
+              <Title
+                style={{ fontSize: 18, color: '#8a8f96', fontWeight: '100' }}
+              >Achievements
+            </Title>
             </CardItem>
             <CardItem>
               <List
